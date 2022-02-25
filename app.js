@@ -12,12 +12,12 @@ const randomColor = () => {
 button.addEventListener("click", () => {
 	let colors = [];
 	const boxes = document.querySelectorAll(".box");
-	for (let i = 0; i < 9; i++) {
+	for (let i = 0; i < 8; i++) {
 		colors.push(randomColor());
 		boxes[i].innerHTML = "";
 	}
 
-	let idx = Math.floor(Math.random() * 9);
+	let idx = Math.floor(Math.random() * 8);
 	red.innerHTML = colors[idx].r;
 	green.innerHTML = colors[idx].g;
 	blue.innerHTML = colors[idx].b;
