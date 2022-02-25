@@ -52,7 +52,7 @@ h1{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.164);
     display: flex;
     flex-wrap: wrap;justify-content: center;width:1200px;
-    max-width:96%;
+    max-width:92%;
 }
 .box{
     width:120px;
