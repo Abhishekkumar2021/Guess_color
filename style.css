@@ -51,8 +51,8 @@ h1{
     border-radius: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.164);
     display: flex;
-    flex-wrap: wrap;justify-content: center;width:1200px;
-    max-width:92%;
+    flex-wrap: wrap;justify-content: center;
+   
 }
 .box{
     width:120px;
